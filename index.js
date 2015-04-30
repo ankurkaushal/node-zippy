@@ -13,6 +13,9 @@ getCityInformation();
 function getCityInformation () {
 	
 	request(apiUrlForCity, function (error, response, body) {
+		if (args.length !== 2){
+			throw new Error("Please use command like this: zippy country(eg. CA) zipcode (L6Y)");
+		}
 		if (body == '{}'){
 			throw new Error("Invalid City or Postal Code");
 		}
@@ -20,8 +23,8 @@ function getCityInformation () {
 	  		
 	   		var resp = JSON.parse(body);
 	   		console.log("City Name: ",resp.places[0]['place name']);
-	   		console.log("Province/State:",resp.places[0]['state']);
-	   		console.log("Latitude/Longitude:",resp.places[0]['latitude'],'/',resp.places[0]['longitude']);
+	   		console.log("Province/State: ",resp.places[0]['state']);
+	   		console.log("Latitude/Longitude: ",resp.places[0]['latitude'],'/',resp.places[0]['longitude']);
 	 	}
 	});
 
