@@ -2,16 +2,17 @@
 
 Get city information from the zip code.
 
-## Installation
+## Install
 
-```javascript
+```
 npm install node-zippy
 ```
 
 ## Usage 
 
-```javascript
+```js
 zippy country zipcode
 ```
+
 Country should be in abbreviated form. For example, for Canada -> CA 
 
