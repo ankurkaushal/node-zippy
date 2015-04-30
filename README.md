@@ -1,7 +1,9 @@
 # node-zippy
+
 Get city information from the zip code.
 
 ## Installation
+
 ```javascript
 npm install node-zippy
 ```
