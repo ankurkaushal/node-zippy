@@ -1,0 +1,37 @@
+{
+  "name": "node-zippy",
+  "version": "1.0.0",
+  "description": "Get city information from the zip code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ankurkaushal/node-zippy"
+  },
+  "keywords": [
+    "zipcode",
+    "console",
+    "cli"
+  ],
+  "author": {
+    "name": "Ankur Kaushal",
+    "email": "ankurkaushal@outlook.com"
+  },
+  "dependencies": {
+    "request": "2.55.0" 
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "weathernow": "index.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ankurkaushal/node-zippy/issues"
+  },
+  "homepage": "https://github.com/ankurkaushal/node-zippy"
+}
