@@ -1,6 +1,6 @@
 {
   "name": "node-zippy",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "Get city information from the zip code",
   "main": "index.js",
   "scripts": {

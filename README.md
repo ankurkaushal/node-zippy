@@ -10,7 +10,7 @@ npm install node-zippy
 
 ## Usage 
 
-```js
+```
 zippy country zipcode
 ```
 
