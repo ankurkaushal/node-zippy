@@ -20,11 +20,11 @@
     "email": "ankurkaushal@outlook.com"
   },
   "dependencies": {
-    "request": "2.55.0" 
+    "request": "2.55.0"
   },
   "preferGlobal": "true",
   "bin": {
-    "weathernow": "index.js"
+    "zippy": "/index.js"
   },
   "engines": {
     "node": ">=0.10.0"
