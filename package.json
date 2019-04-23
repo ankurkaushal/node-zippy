@@ -20,7 +20,7 @@
     "email": "ankurkaushal@outlook.com"
   },
   "dependencies": {
-    "request": "2.55.0"
+    "request": "^2.88.0"
   },
   "preferGlobal": true,
   "bin": {
